@@ -1,0 +1,60 @@
+SINTAX CSS
+
+seletor { propriedade: valor; }
+
+Exemplo1
+h1 { color: red; }
+
+Exemplo2
+h1 {
+color:red;
+font-size: 16px;
+}
+
+Como incluir um css no html
+
+Inline
+  <p style="..."> ... </p>
+
+Interno
+	<style> ... </style>
+
+Externo
+	<link href='.css" rel="stylesheet">
+
+SELETOR DE ELEMENTO
+HTML
+	<P></P>
+CSS
+ 	p {...}
+
+SELETOR USANDO ATRIBUTO CLASS
+HTML
+   <p class="minha-classe"> ...</p>
+
+CSS
+   .minha-classe {...}
+\\Quando o css vê um . (ponto) ele entende que é uma class
+
+
+SELETOR DE ID
+HTML
+   <p id="meu-id">...</p>
+
+CSS
+#meu-id {...}
+\\ Quando o css vê um #, ele interpreta como um id
+
+\\QUANDO USAR CLASS OU ID ? Id pode ser usado um por pagina
+
+FONTS
+   font-family
+   font-size
+   font-style
+   font-variant
+
+TEXT
+   text-align
+   text-decoration
+   text-ident
+   text-transform
