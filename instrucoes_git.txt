@@ -1,0 +1,30 @@
+1 - Acessar a pasta do projeto
+2 - Com o botão direito clicar em ( git bash here )
+
+3 - git init
+4 - Nesse momento é criado uma pasta ocuta
+	Para ve-la vá clique em (Exibir > intens ocutos)
+		Nesse momento aparerera a pasta ( .git )
+5 - Crie um arquivo de txt(nome desejado)
+
+6 - git status
+	Nesse momento você vai ter um relatório do seu arquivo
+	que ja forma incluidos no controle de versão e quais não.
+
+7 - git add "meu_codigo.txt"
+	nesse ponto ao dar um (git status)
+	você tera icluido os arquivos no controle de versão ( cor verde )
+
+8 - git add .
+	adiciona varios arquivos ao controle de versão
+
+9 - git commit -m "commit inicial"
+	Comando é um comentario do que foi feito na versão
+
+10 - git config --global user.email "sorafaeltavares@gmail.com
+   - git config --global user.name "Rafael Tavares 
+	esse comendo é solicitado caso esteja fazendo o primeiro commit
+
+11 - git push
+12 - git remote add origin https://github.com/sorafael/aprendendo_git
+13 - git push

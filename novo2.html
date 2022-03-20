@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <title>APRENDENDO CSS</title>
+    <style>
+        body{
+            background-color: #ccc;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 38px;
+            font-style: italic;
+            font-variant: small-caps;
+            color: #fffb00;
+            background-color: rgb(0, 183, 255) ;
+            margin-left: 0;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding-left: 25px;
+            padding-bottom: 50px;
+            padding-right: 25px;
+            width: 3000px;
+            height: 100px;
+        }
+
+        h2 {
+
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-color: rgb(155, 101, 206);
+            border-color: red;
+            border-style:dotted;
+            border-width: 10px;
+            padding: 25px;
+            }
+        p {
+            font-variant: normal;
+            text-align: left;
+            text-decoration: underline;
+            text-indent: 50px;
+            text-transform:none;
+            margin-bottom: 50px;
+        }
+        #destaque{
+            color: rgb(38, 0, 255);
+            background-color: azure;
+            margin-bottom: 50px;
+        }
+        .uno{
+            color: black;
+            background-color: aquamarine;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <H1>AQUI TEM UM TITULO</H1>
+
+    <H2>SUBTITULO DA PAGINA</H2>
+
+    <P class="uno">O kernel Linux é um projeto de software de código aberto de escopo bastante grande. Durante os primeiros anos da manutenção do kernel Linux (1991-2002), as alterações no software foram transmitidas como patches e arquivos arquivados. Em 2002, o projeto do kernel Linux começou a usar um DVCS proprietário chamado BitKeeper.</P>
+
+    <P id="destaque">Em 2005, a relação entre a comunidade que desenvolveu o kernel Linux e a empresa comercial que desenvolveu o BitKeeper quebrou, e o status de free-of-charge da ferramenta foi revogado. Isso levou a comunidade de desenvolvimento do Linux (e, em particular, Linus Torvalds, o criador do Linux) a desenvolver sua própria ferramenta com base em algumas das lições que aprenderam ao usar o BitKeeper. Algumas das metas do novo sistema foram as seguintes:
+        <ul>
+            <li>Velocidade</li>
+            <li>Design simples</li>
+            <li>Forte apoio ao desenvolvimento não linear (milhares de ramos paralelos)</li>
+            <li>Totalmente distribuído</li>
+            <li>Capaz de lidar com grandes projetos como o kernel Linux de forma eficiente (velocidade e tamanho de dados)</li>
+        </ul>
+
+    </P>
+    
+    <P class="uno">Desde seu nascimento em 2005, o Git evoluiu e amadureceu para ser fácil de usar e ainda assim manter essas qualidades iniciais. É incrivelmente rápido, é muito eficiente com grandes projetos, e tem um incrível sistema de ramificação para desenvolvimento não linear (Ver Git Branching).</P>
+    
+</body>
+</html>
